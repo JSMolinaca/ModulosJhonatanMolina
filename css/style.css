@@ -27,3 +27,11 @@ p {
 .disney {
     color: #113CCF;
 }
+
+.color-gradient {
+    background: linear-gradient(90deg, #E50914, #1F2C56, #113CCF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
