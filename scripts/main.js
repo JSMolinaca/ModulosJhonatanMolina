@@ -51,7 +51,7 @@ function pintarSeries(series) {
     series.forEach(serie => {
         const div = document.createElement('div');
         div.classList.add('serie');
-        div.innerHTML = `<h2>${serie.title}</h2><p>Plataforma: ${serie.platform}</p>`;
+        div.innerHTML = `<h2 class="d-flex justify-content-center">${serie.title}</h2><p class="d-flex justify-content-center">Plataforma: ${serie.platform}</p>`;
         container.appendChild(div);
     });
 }

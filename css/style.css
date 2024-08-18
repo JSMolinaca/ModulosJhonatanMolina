@@ -1,3 +1,29 @@
-a, h1{
+a, h1, h2{
     font-family: Matemasie;
+}
+
+p {
+    font-family: Bebas Neue;
+}
+
+#container {
+    height: 100vh;
+}
+
+.serie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hbo {
+    color: #1F2C56;
+}
+
+.netflix {
+    color: #E50914;
+}
+
+.disney {
+    color: #113CCF;
 }
