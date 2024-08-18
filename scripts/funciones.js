@@ -24,8 +24,7 @@ export function pintarSeries(series) {
 }
 
 //INICIALIZAR 
-export function inicializarPagina() {
-    const platform = document.title;
+export function inicializarPagina(platform) {
     const seriesFiltradas = filtrarSeries(platform);
     pintarSeries(seriesFiltradas);
 }
